@@ -1,0 +1,32 @@
+.lowerkeys{
+	height: 75vh;
+	width: 14.25vw;
+	background-color: white;
+	border: 1vw solid black;
+	outline: none;
+	z-index: 1;
+}
+.keys:hover{
+	cursor: pointer;
+}
+.lowerkeys:active {
+	filter: brightness(0.8);
+}
+.upperkeys{
+	position: absolute;
+	height: 45vh;
+	width: 10vw;
+	background-color: white;
+	filter: brightness(0);
+	border: 1vw solid white;
+	outline: none;
+	z-index: 2;
+}
+.upperkeys:active {
+	filter: brightness(0.2)
+}
+body{
+	background-color: burlywood;
+	margin: 0;
+	align-content: center;
+}
