@@ -3,27 +3,34 @@
 	width: 14.25vw;
 	background-color: white;
 	border: 1vw solid black;
+	color: grey;
 	outline: none;
 	z-index: 1;
+	position: absolute;
+	top: 0;
+}
+.keys{
+	font-size: 5vh;
 }
 .keys:hover{
 	cursor: pointer;
 }
 .lowerkeys:active {
-	filter: brightness(0.8);
+	background-color: lightgrey;
 }
 .upperkeys{
 	position: absolute;
 	height: 45vh;
 	width: 10vw;
-	background-color: white;
-	filter: brightness(0);
-	border: 1vw solid white;
+	background-color: black;
+	border: 1vw solid black;
+	color: grey;
 	outline: none;
 	z-index: 2;
+	top: 0;
 }
 .upperkeys:active {
-	filter: brightness(0.2)
+	background-color: darkgrey;
 }
 body{
 	background-color: burlywood;
