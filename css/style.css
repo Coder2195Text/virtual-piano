@@ -10,7 +10,7 @@
 	top: 0;
 }
 .keys{
-	font-size: 5vh;
+	font-size: 5vw;
 }
 .keys:hover{
 	cursor: pointer;
@@ -36,4 +36,31 @@ body{
 	background-color: burlywood;
 	margin: 0;
 	align-content: center;
+}
+#octave{
+	position: absolute;
+	bottom: 0;
+}
+.paddingbottom{
+	height: 50vh;
+}
+.paddingtop{
+	height: 30vh
+}
+.octaveSelect{
+	position: absolute;
+	top: 80vh;
+}
+
+.octaveOpt{
+	width: 12.5vw;
+	height: 20vh;
+	background: content-box linear-gradient(#e66465, #9198e5);
+	font-size:3.5vw;
+	border: none;
+}
+.octaveOpt:active{
+	border: none;
+	filter: brightness(0.8);
+	
 }

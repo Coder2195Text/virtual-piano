@@ -3,24 +3,58 @@
 	<head>
 	<meta charset="utf-8">    
 	<title>Virtual Piano</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
 	<div id="piano"><!--
-	---><button id="cnote" class="keys lowerkeys" style="left: 0.5vw;">C</button><!--
-	---><button id="c#note" class="keys upperkeys" style="left: 9.5vw">C#</button><!--
-	---><button id="dnote" class="keys lowerkeys" style="left: 14.3vw">D</button><!--
-	---><button id="d#note" class="keys upperkeys" style="left: 23.5vw">D#</button><!--
-	---><button id="enote" class="keys lowerkeys" style="left: 28.5vw">E</button><!--
-	---><button id="fnote" class="keys lowerkeys" style="left: 42.7vw">F</button><!--
-	---><button id="f#note" class="keys upperkeys" style="left: 52vw">F#</button><!--
-	---><button id="gnote" class="keys lowerkeys" style="left: 56.9vw">G</button><!--
-	---><button id="g#note" class="keys upperkeys" style="left: 66.3vw">G#</button><!--
-	---><button id="anote" class="keys lowerkeys" style="left: 71vw">A</button><!--
-	---><button id="a#note" class="keys upperkeys" style="left: 80.5vw">A#</button><!--
-	---><button id="bnote" class="keys lowerkeys" style="left:85vw">B</button><!--
+	---><button id="cnote" class="keys lowerkeys" style="left: 0.5vw;">
+			<div class="paddingbottom"></div>C
+		</button><!--
+	---><button id="c#note" class="keys upperkeys" style="left: 9.5vw">
+			<div class="paddingtop"></div>C#
+		</button><!--
+	---><button id="dnote" class="keys lowerkeys" style="left: 14.3vw">
+			<div class="paddingbottom"></div>D
+		</button><!--
+	---><button id="d#note" class="keys upperkeys" style="left: 23.5vw">
+			<div class="paddingtop"></div>D#
+		</button><!--
+	---><button id="enote" class="keys lowerkeys" style="left: 28.5vw">
+			<div class="paddingbottom"></div>E
+		</button><!--
+	---><button id="fnote" class="keys lowerkeys" style="left: 42.7vw">
+			<div class="paddingbottom"></div>F
+		</button><!--
+	---><button id="f#note" class="keys upperkeys" style="left: 52vw">
+			<div class="paddingtop"></div>F#
+		</button><!--
+	---><button id="gnote" class="keys lowerkeys" style="left: 56.9vw">
+			<div class="paddingbottom"></div>G
+		</button><!--
+	---><button id="g#note" class="keys upperkeys" style="left: 66.3vw">
+			<div class="paddingtop"></div>G#
+		</button><!--
+	---><button id="anote" class="keys lowerkeys" style="left: 71vw">
+			<div class="paddingbottom"></div>A
+		</button><!--
+	---><button id="a#note" class="keys upperkeys" style="left: 80.5vw">
+			<div class="paddingtop"></div>A#
+		</button><!--
+	---><button id="bnote" class="keys lowerkeys" style="left:85vw">
+			<div class="paddingbottom"></div>B
+		</button><!--
 ---></div>
-	<script src="tone.js"></script>
-    <script src="script.js"></script>
+	<div class="octaveSelect"><!--
+	 --><button class="octaveOpt" onclick="octave=1">OCT1</button><!--
+	 --><button class="octaveOpt" onclick="octave=2">OCT2</button><!--
+	 --><button class="octaveOpt" onclick="octave=3">OCT3</button><!--
+	 --><button class="octaveOpt" onclick="octave=4">OCT4</button><!--
+	 --><button class="octaveOpt" onclick="octave=5">OCT5</button><!--
+	 --><button class="octaveOpt" onclick="octave=6">OCT6</button><!--
+	 --><button class="octaveOpt" onclick="octave=7">OCT7</button><!--
+	 --><button class="octaveOpt" onclick="octave=8">OCT8</button><!--
+--></div>
+	<script src="js/tone.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
