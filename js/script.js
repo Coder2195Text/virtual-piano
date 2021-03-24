@@ -3,7 +3,7 @@ var octave = 4
 let noteElements = []
  
 
-for (let elm = 0; elm < document.getElementsByTagName("button").length; elm++){
+for (let elm = 0; elm < document.getElementsByClassName("keys").length; elm++){
 	noteElements.push(document.getElementsByTagName("button")[elm])
 	noteElements[elm].addEventListener("mousedown", () => {
 		try {
