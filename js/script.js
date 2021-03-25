@@ -4,7 +4,7 @@ let noteElements = []
  
 
 for (let elm = 0; elm < document.getElementsByClassName("keys").length; elm++){
-	noteElements.push(document.getElementsByTagName("button")[elm])
+	noteElements.push(document.getElementsByClassName("keys")[elm])
 	noteElements[elm].addEventListener("mousedown", () => {
 		try {
 			piano.triggerAttackRelease(noteElements[elm].id.split("note")[0].toUpperCase()+octave, 0.5)}
